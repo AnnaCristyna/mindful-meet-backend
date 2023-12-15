@@ -23,7 +23,7 @@ model Professional {
   job         String
   Location    String
   reviews     Reviews[]
-  description String
+  description String?
   value       Int
   time        Int
   schedule    Schedule[]
@@ -43,7 +43,7 @@ model Schedule {
   id              Int          @id @default(autoincrement())
   date_hour       DateTime
   day_week        String
-  user_name      String
+  user_name      String?
   professional_id Int
   professional    Professional @relation(fields: [professional_id], references: [id])
 }
