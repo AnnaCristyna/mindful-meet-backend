@@ -1,0 +1,93 @@
+node_modules
+# Keep environment variables out of version control
+.env
+
+# Node.js
+node_modules/
+
+# Prisma
+prisma/.env*
+
+# Arquivos de log
+logs
+*.log
+
+# Arquivos temporários
+*.swp
+
+# Arquivos de ambiente
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Arquivos de build
+build/
+dist/
+out/
+
+# Dependências de tipos (geradas pelo TypeScript)
+types/
+
+# Cache do npm e yarn
+.npm/
+.yarn/
+.pnpm/
+
+# Arquivos de configuração
+.idea/
+.vscode/
+*.sublime-*
+
+# Arquivos de backup
+*.bak
+*.backup
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração do Windows
+desktop.ini
+
+# Arquivos de configuração do Linux
+*.swp
+
+# Cache do Prisma Client
+prisma/client/
+
+# Arquivos de dependências e cache do Yarn
+.yarn-integrity
+.yarnrc
+.yarnrc.yml
+yarn.lock
+
+# Dependências do npm
+package-lock.json
+
+# Cache do TypeScript
+node_modules/.cache/
+
+# Cache do ESLint
+.eslintcache
+
+# Cache do Jest
+node_modules/.cache/
+jest-puppeteer/
+
+# Cache do Node-gyp
+.npm
+node_modules/
+node_modules.bin/
+
+# Scripts de build
+dist/
+lib/
+out/
+build/
+
+# Pastas de produção
+prod/
+
+# Arquivos de produção
+*.tgz
